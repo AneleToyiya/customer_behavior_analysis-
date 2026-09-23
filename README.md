@@ -11,7 +11,7 @@ The main goal is to answer key business questions and identify patterns that can
 
 ## Dataset
 
-The dataset contains customer shopping and transaction information, including details related to:
+The dataset contains customer shopping and transaction information including details related to
 
 * Customer demographics
 * Product categories
@@ -111,13 +111,14 @@ The dashboard provides a visual overview of customer behavior and sales performa
 
 Key dashboard metrics and visualizations include
 
-* Total Customers
-* Total Purchases
+* Number of customers
+* Average Review Rating
 * Average Purchase Amount
-* Sales by Product Category
-* Customer Demographics 
-* Purchase Trends
-* Customer Segment Analysis
+* Revenue by Category
+* Sales by Category
+* Revenue by Age Group
+* Sales by Age Group
+  
 
 Interactive filters and slicers allow users to explore the data from different perspectives.
 
@@ -135,51 +136,6 @@ Key insights include:
 * Presenting the findings through an interactive Power BI dashboard
 
 The combination of **Python, SQL, and Power BI** transforms the raw customer transaction data into a structured analysis that can support data driven business decisions.
-
-
-## Project Workflow
-
-Raw Dataset
-     ↓
-Python / Pandas
-     ↓
-Data Cleaning & EDA
-     ↓
-Missing Values → Median
-     ↓
-Column Renaming & Data Preparation
-     ↓
-MySQL
-     ↓
-SQL Business Analysis
-     ↓
-Power BI
-     ↓
-Interactive Dashboard & Insights
-
-
-## Project Structure
-
-Customer-Behavior-Analysis/
-│
-├── data/
-│   └── customer_shopping_data.csv
-│
-├── notebooks/
-│   └── Customer_Behavior_Analysis.ipynb
-│
-├── sql/
-│   └── customer_analysis_queries.sql
-│
-├── powerbi/
-│   └── Customer_Behavior_Dashboard.pbix
-│
-├── images/
-│   └── dashboard.png
-│
-├── requirements.txt
-│
-└── README.md
 
 
 ## Skills Demonstrated
@@ -203,4 +159,4 @@ Customer-Behavior-Analysis/
 
 This project demonstrates an end-to-end **data analytics workflow** from loading and cleaning raw customer data to performing SQL based business analysis and developing an interactive Power BI dashboard.
 
-It showcases how **Python, MySQL, SQL, and Power BI** can be combined to transform raw customer data into meaningful insights and business-focused reporting.
+It showcases how **Python, MySQL, SQL and Power BI** can be combined to transform raw customer data into meaningful insights and business-focused reporting.
